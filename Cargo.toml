@@ -1,0 +1,18 @@
+[package]
+name = "unstd"
+version = "0.1.0"
+authors = ["Christoph Grabo <asaaki@mannaz.cc>"]
+edition = "2018"
+readme = "README.md"
+description = "A little utility belt."
+homepage = "https://github.com/asaaki/unstd"
+repository = "https://github.com/asaaki/unstd"
+categories = [
+  "development-tools",
+  "rust-patterns"
+]
+keywords = ["std", "math", "utils", ]
+license = "MIT OR Apache-2.0"
+exclude = [".assets/*", ".github/*"]
+
+[dependencies]
