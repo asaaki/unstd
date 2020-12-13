@@ -24,7 +24,7 @@ This function will panic if `rhs` is 0.
 ## Example
 ```rust
 let (q, r) = unstd::math::",stringify!($ty),"::divrem(&3, &2);
-//=> (1, 1)
+assert_eq!((q, r), (1, 1))
 ```
                     "),
                     pub fn divrem(lhs: &$ty, rhs: &$ty) -> ($ty, $ty) {
@@ -44,7 +44,7 @@ This function will panic if `rhs` is 0.
 ## Example
 ```rust
 let (q, r) = unstd::math::",stringify!($ty),"::divrem(&3, &2);
-//=> (1, 1)
+assert_eq!((q, r), (1, 1))
 ```
 
 [div_euclid]: ",stringify!($ty),"::div_euclid
